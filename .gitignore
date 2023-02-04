@@ -1,0 +1,7 @@
+node_modules
+.vscode
+.env
+test.html
+temp.sql
+test.sql
+class.sql
