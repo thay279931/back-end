@@ -31,12 +31,7 @@ const bcrypt = require('bcrypt')
 const cors = require("cors");
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "http://192.168.35.16:3000",
-      "http://192.168.1.107:3000",
-      "http://192.168.34.140:3000",
-    ], //這邊改成他的伺服器(白名單)，有多個的時候用陣列表示
+    origin:"*", //這邊改成他的伺服器(白名單)，有多個的時候用陣列表示
     optionsSuccessStatus: 200,
   })
 );
