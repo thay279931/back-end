@@ -477,14 +477,14 @@ router.put('/edit2/:sid', upload.none(),
             port: 465,
           auth: {
             user: "thay279931@gmail.com",
-            pass: "exuniirxweyyasyk",
+            pass: "zfknjzbxkdcwbsxx",
           },
         })
       
         transporter.sendMail(
           {
             from: "thay279931@gmail.com",
-            to: "noreg0351091@gmail.com",
+            to: "er6289@gmail.com",
             subject: "會員密碼重設",
             text: `您好\n\n請點選下列網址，完成密碼重設的手續。\n\nhttp://localhost:3000/Member/resetPass?token=${token}&mid=${result[0].sid}\n\n■ 若您未曾在隨饗設定本電子郵件帳號，這表示其他用戶很可能輸入錯誤的信箱帳號，\n導致系統傳送本封郵件至此信箱內。\n請直接刪除本封郵件即可。`,
           },
